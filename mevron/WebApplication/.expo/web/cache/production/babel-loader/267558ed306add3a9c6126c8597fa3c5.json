@@ -1,0 +1,15 @@
+{
+    "ast": null,
+    "code": "import\"./normalized.css\";import\"./App.css\";import React from'react';import Routes from\"./routes\";var App=function App(){return React.createElement(Routes,null);};export default App;",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/App.jsx"],
+        "names": ["React", "Routes", "App"],
+        "mappings": "AAAA,yBACA,kBACA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CACA,MAAOC,CAAAA,MAAP,gBAEA,GAAMC,CAAAA,GAAG,CAAG,QAANA,CAAAA,GAAM,SAAM,qBAAC,MAAD,MAAN,EAAZ,CACA,cAAeA,CAAAA,GAAf",
+        "sourcesContent": [
+            "import './normalized.css';\nimport './App.css'\nimport React from 'react';\nimport Routes from './routes';\n\nconst App = () => <Routes />\nexport default App;\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

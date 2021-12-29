@@ -1,0 +1,32 @@
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\JusticeClock\\\\JusticeClock\\\\WebApplication\\\\_CrossBasement\\\\CrossPage\\\\AdvancedSearch\\\\index.js\";\nvar __jsx = React.createElement;\nimport React, { useState } from 'react';\nimport { Select } from \"../../CrossCore/components/Forms\";\nimport Name from \"./components/Name\";\nexport default function AdvancedSearch() {\n  var _useState = useState([]),\n      selectedTeams = _useState[0],\n      setSelectedTeams = _useState[1];\n\n  var K_OPTIONS = [{\n    item: 'First Name or Last Name',\n    id: 'name'\n  }, {\n    item: 'File Name',\n    id: 'fileName'\n  }, {\n    item: 'Search by Court Charge Number',\n    id: 'chargeNumber'\n  }, {\n    item: 'Search by File Number',\n    id: 'fileNumber'\n  }, {\n    item: 'Search by Case Type',\n    id: 'caseType'\n  }, {\n    item: 'Search by Staffs Activities',\n    id: 'staffActivities'\n  }, {\n    item: 'Search by Case Endorsement',\n    id: 'caseEndorsement'\n  }];\n\n  function onChange() {\n    return function (val) {\n      return setSelectedTeams(val);\n    };\n  }\n\n  console.log(selectedTeams);\n  return __jsx(React.Fragment, null, __jsx(Select, {\n    title: \"Select Categories\",\n    value: selectedTeams,\n    options: K_OPTIONS,\n    onChange: onChange(),\n    hideInputFilter: false,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 46,\n      columnNumber: 13\n    }\n  }), selectedTeams.id === 'name' ? __jsx(Name, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 54,\n      columnNumber: 44\n    }\n  }) : __jsx(React.Fragment, null));\n}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/_CrossBasement/CrossPage/AdvancedSearch/index.js"
+        ],
+        "names": [
+            "React",
+            "useState",
+            "Select",
+            "Name",
+            "AdvancedSearch",
+            "selectedTeams",
+            "setSelectedTeams",
+            "K_OPTIONS",
+            "item",
+            "id",
+            "onChange",
+            "val",
+            "console",
+            "log"
+        ],
+        "mappings": ";;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,QAAgC,OAAhC;AACA,SAASC,MAAT;AACA,OAAOC,IAAP;AAEA,eAAe,SAASC,cAAT,GAA0B;AACrC,kBAA0CH,QAAQ,CAAC,EAAD,CAAlD;AAAA,MAAOI,aAAP;AAAA,MAAsBC,gBAAtB;;AAEA,MAAMC,SAAS,GAAG,CACd;AACIC,IAAAA,IAAI,EAAE,yBADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GADc,EAKd;AACID,IAAAA,IAAI,EAAE,WADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GALc,EASd;AACID,IAAAA,IAAI,EAAE,+BADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GATc,EAad;AACID,IAAAA,IAAI,EAAE,uBADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GAbc,EAiBd;AACID,IAAAA,IAAI,EAAE,qBADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GAjBc,EAqBd;AACID,IAAAA,IAAI,EAAE,6BADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GArBc,EAyBd;AACID,IAAAA,IAAI,EAAE,4BADV;AAEIC,IAAAA,EAAE,EAAE;AAFR,GAzBc,CAAlB;;AA8BA,WAASC,QAAT,GAAoB;AAChB,WAAO,UAACC,GAAD;AAAA,aAASL,gBAAgB,CAACK,GAAD,CAAzB;AAAA,KAAP;AACH;;AAEDC,EAAAA,OAAO,CAACC,GAAR,CAAYR,aAAZ;AAEA,SACI,4BACI,MAAC,MAAD;AACI,IAAA,KAAK,EAAC,mBADV;AAEI,IAAA,KAAK,EAAEA,aAFX;AAGI,IAAA,OAAO,EAAEE,SAHb;AAII,IAAA,QAAQ,EAAEG,QAAQ,EAJtB;AAKI,IAAA,eAAe,EAAE,KALrB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,EASKL,aAAa,CAACI,EAAd,KAAqB,MAArB,GAA8B,MAAC,IAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAA9B,GAAyC,2BAT9C,CADJ;AAaH",
+        "sourcesContent": [
+            "import React, { useState } from 'react';\r\nimport { Select } from '@mevron/cross-core/components/Forms';\r\nimport Name from './components/Name';\r\n\r\nexport default function AdvancedSearch() {\r\n    const [selectedTeams, setSelectedTeams] = useState([]);\r\n\r\n    const K_OPTIONS = [\r\n        {\r\n            item: 'First Name or Last Name',\r\n            id: 'name',\r\n        },\r\n        {\r\n            item: 'File Name',\r\n            id: 'fileName',\r\n        },\r\n        {\r\n            item: 'Search by Court Charge Number',\r\n            id: 'chargeNumber',\r\n        },\r\n        {\r\n            item: 'Search by File Number',\r\n            id: 'fileNumber',\r\n        },\r\n        {\r\n            item: 'Search by Case Type',\r\n            id: 'caseType',\r\n        },\r\n        {\r\n            item: 'Search by Staffs Activities',\r\n            id: 'staffActivities',\r\n        },\r\n        {\r\n            item: 'Search by Case Endorsement',\r\n            id: 'caseEndorsement',\r\n        },\r\n    ];\r\n    function onChange() {\r\n        return (val) => setSelectedTeams(val);\r\n    }\r\n\r\n    console.log(selectedTeams);\r\n\r\n    return (\r\n        <>\r\n            <Select\r\n                title=\"Select Categories\"\r\n                value={selectedTeams}\r\n                options={K_OPTIONS}\r\n                onChange={onChange()}\r\n                hideInputFilter={false}\r\n            />\r\n\r\n            {selectedTeams.id === 'name' ? <Name /> : <></>}\r\n        </>\r\n    );\r\n}\r\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

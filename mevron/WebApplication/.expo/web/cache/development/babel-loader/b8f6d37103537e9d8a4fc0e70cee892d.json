@@ -1,0 +1,35 @@
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\JusticeClock\\\\WebApplication\\\\src\\\\Sidebar\\\\index.js\";\nvar __jsx = React.createElement;\nimport React, { useEffect, useState } from 'react';\nimport { useLocation } from 'react-router-dom';\nimport { colors } from \"../../_CrossBasement/CrossCore/components/typo\";\nimport { Feather } from '@expo/vector-icons';\nimport SidebarContainer from \"./components/SidebarContainer\";\nimport LogoTrans from \"./components/LogoTrans\";\nimport SidebarToggle from \"./components/SidebarToggle\";\nimport { useMenuStates } from \"./components/useMenuStates\";\nimport MenuBox from \"./components/MenuBox\";\nexport default function Sidebar() {\n  var menuStates = useMenuStates();\n\n  var _useState = useState(false),\n      page = _useState[0],\n      setPage = _useState[1];\n\n  var location = useLocation();\n  useEffect(function () {\n    setPage(location.pathname);\n  }, [location]);\n  return __jsx(SidebarContainer, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 21,\n      columnNumber: 9\n    }\n  }, __jsx(SidebarToggle, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 22,\n      columnNumber: 13\n    }\n  }), __jsx(LogoTrans, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 23,\n      columnNumber: 13\n    }\n  }), __jsx(\"div\", {\n    className: \"navigation \".concat(menuStates.get() && 'active'),\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 24,\n      columnNumber: 13\n    }\n  }, __jsx(\"ul\", {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 25,\n      columnNumber: 17\n    }\n  }, __jsx(MenuBox, {\n    to: \"/dashboard\",\n    name: \"Dashboard\",\n    icon: __jsx(Feather, {\n      name: \"home\",\n      size: 24,\n      color: colors.textColor,\n      __self: this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 29,\n        columnNumber: 31\n      }\n    }),\n    active: page === '/dashboard',\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 26,\n      columnNumber: 21\n    }\n  }))));\n}",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/Sidebar/index.js"],
+        "names": [
+            "React",
+            "useEffect",
+            "useState",
+            "useLocation",
+            "colors",
+            "Feather",
+            "SidebarContainer",
+            "LogoTrans",
+            "SidebarToggle",
+            "useMenuStates",
+            "MenuBox",
+            "Sidebar",
+            "menuStates",
+            "page",
+            "setPage",
+            "location",
+            "pathname",
+            "get",
+            "textColor"
+        ],
+        "mappings": ";;AAAA,OAAOA,KAAP,IAAgBC,SAAhB,EAA2BC,QAA3B,QAA2C,OAA3C;AACA,SAASC,WAAT,QAA4B,kBAA5B;AACA,SAASC,MAAT;AACA,SAASC,OAAT,QAAwB,oBAAxB;AACA,OAAOC,gBAAP;AACA,OAAOC,SAAP;AACA,OAAOC,aAAP;AACA,SAASC,aAAT;AACA,OAAOC,OAAP;AAEA,eAAe,SAASC,OAAT,GAAmB;AAC9B,MAAMC,UAAU,GAAGH,aAAa,EAAhC;;AACA,kBAAwBP,QAAQ,CAAC,KAAD,CAAhC;AAAA,MAAOW,IAAP;AAAA,MAAaC,OAAb;;AACA,MAAMC,QAAQ,GAAGZ,WAAW,EAA5B;AAEAF,EAAAA,SAAS,CAAC,YAAM;AACZa,IAAAA,OAAO,CAACC,QAAQ,CAACC,QAAV,CAAP;AACH,GAFQ,EAEN,CAACD,QAAD,CAFM,CAAT;AAIA,SACI,MAAC,gBAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACI,MAAC,aAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,EAEI,MAAC,SAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAFJ,EAGI;AAAK,IAAA,SAAS,uBAAgBH,UAAU,CAACK,GAAX,MAAoB,QAApC,CAAd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACI;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACI,MAAC,OAAD;AACI,IAAA,EAAE,EAAC,YADP;AAEI,IAAA,IAAI,EAAC,WAFT;AAGI,IAAA,IAAI,EAAE,MAAC,OAAD;AAAS,MAAA,IAAI,EAAC,MAAd;AAAqB,MAAA,IAAI,EAAE,EAA3B;AAA+B,MAAA,KAAK,EAAEb,MAAM,CAACc,SAA7C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAHV;AAII,IAAA,MAAM,EAAEL,IAAI,KAAK,YAJrB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,CADJ,CAHJ,CADJ;AAgBH",
+        "sourcesContent": [
+            "import React, { useEffect, useState } from 'react';\r\nimport { useLocation } from 'react-router-dom';\r\nimport { colors } from '@mevron/cross-core/components/typo';\r\nimport { Feather } from '@expo/vector-icons';\r\nimport SidebarContainer from './components/SidebarContainer';\r\nimport LogoTrans from './components/LogoTrans';\r\nimport SidebarToggle from './components/SidebarToggle';\r\nimport { useMenuStates } from './components/useMenuStates';\r\nimport MenuBox from './components/MenuBox';\r\n\r\nexport default function Sidebar() {\r\n    const menuStates = useMenuStates();\r\n    const [page, setPage] = useState(false);\r\n    const location = useLocation();\r\n\r\n    useEffect(() => {\r\n        setPage(location.pathname);\r\n    }, [location]);\r\n\r\n    return (\r\n        <SidebarContainer>\r\n            <SidebarToggle />\r\n            <LogoTrans />\r\n            <div className={`navigation ${menuStates.get() && 'active'}`}>\r\n                <ul>\r\n                    <MenuBox\r\n                        to=\"/dashboard\"\r\n                        name=\"Dashboard\"\r\n                        icon={<Feather name=\"home\" size={24} color={colors.textColor} />}\r\n                        active={page === '/dashboard'}\r\n                    />\r\n                </ul>\r\n            </div>\r\n        </SidebarContainer>\r\n    );\r\n}\r\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

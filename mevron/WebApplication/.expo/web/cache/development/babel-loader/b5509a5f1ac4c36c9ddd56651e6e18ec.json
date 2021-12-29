@@ -1,0 +1,17 @@
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\JusticeClock\\\\WebApplication\\\\_CrossBasement\\\\CrossPage\\\\LandingPage\\\\index.js\";\nvar __jsx = React.createElement;\nimport React from 'react';\nimport Text from \"react-native-web/dist/exports/Text\";\nimport { Feather, Ionicons, AntDesign, FontAwesome5 } from '@expo/vector-icons';\nexport function LandingPage() {\n  return __jsx(Text, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 7,\n      columnNumber: 9\n    }\n  }, \"Hello Landing Page \", __jsx(FontAwesome5, {\n    name: \"user-tie\",\n    size: 24,\n    color: \"black\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 32\n    }\n  }));\n}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/mevron/JusticeClock/WebApplication/_CrossBasement/CrossPage/LandingPage/index.js"
+        ],
+        "names": ["React", "Feather", "Ionicons", "AntDesign", "FontAwesome5", "LandingPage"],
+        "mappings": ";;AAAA,OAAOA,KAAP,MAAkB,OAAlB;;AAEA,SAASC,OAAT,EAAkBC,QAAlB,EAA4BC,SAA5B,EAAuCC,YAAvC,QAA2D,oBAA3D;AAEA,OAAO,SAASC,WAAT,GAAuB;AAC1B,SACI,MAAC,IAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,4BACuB,MAAC,YAAD;AAAc,IAAA,IAAI,EAAC,UAAnB;AAA8B,IAAA,IAAI,EAAE,EAApC;AAAwC,IAAA,KAAK,EAAC,OAA9C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADvB,CADJ;AAKH",
+        "sourcesContent": [
+            "import React from 'react';\nimport { Text } from 'react-native';\nimport { Feather, Ionicons, AntDesign, FontAwesome5 } from '@expo/vector-icons';\n\nexport function LandingPage() {\n    return (\n        <Text>\n            Hello Landing Page <FontAwesome5 name=\"user-tie\" size={24} color=\"black\" />\n        </Text>\n    );\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

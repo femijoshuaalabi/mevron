@@ -1,0 +1,27 @@
+{
+  "files": {
+    "app.js": "/static/js/app.e1dab7ec.chunk.js",
+    "app.js.map": "/static/js/app.e1dab7ec.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.5da89658.js",
+    "runtime~app.js.map": "/static/js/runtime~app.5da89658.js.map",
+    "static/js/2.cc06ca49.chunk.js": "/static/js/2.cc06ca49.chunk.js",
+    "static/js/2.cc06ca49.chunk.js.map": "/static/js/2.cc06ca49.chunk.js.map",
+    "static/js/3.5ae6259d.chunk.js": "/static/js/3.5ae6259d.chunk.js",
+    "static/js/3.5ae6259d.chunk.js.map": "/static/js/3.5ae6259d.chunk.js.map",
+    "static/js/4.e07aff17.chunk.js": "/static/js/4.e07aff17.chunk.js",
+    "static/js/4.e07aff17.chunk.js.map": "/static/js/4.e07aff17.chunk.js.map",
+    "fonts/OpenSansBold.ttf": "/./fonts/OpenSansBold.ttf",
+    "fonts/Roboto-Bold.ttf": "/./fonts/Roboto-Bold.ttf",
+    "fonts/Roboto-Regular.ttf": "/./fonts/Roboto-Regular.ttf",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "static/js/2.cc06ca49.chunk.js.LICENSE.txt": "/static/js/2.cc06ca49.chunk.js.LICENSE.txt",
+    "static/js/3.5ae6259d.chunk.js.LICENSE.txt": "/static/js/3.5ae6259d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.5da89658.js",
+    "static/js/2.cc06ca49.chunk.js",
+    "static/js/app.e1dab7ec.chunk.js"
+  ]
+}

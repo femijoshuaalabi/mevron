@@ -1,0 +1,30 @@
+{
+    "ast": null,
+    "code": "import _taggedTemplateLiteral from \"@babel/runtime/helpers/taggedTemplateLiteral\";\n\nvar _templateObject,\n    _templateObject2,\n    _templateObject3,\n    _jsxFileName = \"C:\\\\GavelProjects\\\\JusticeClock\\\\JusticeClock\\\\WebApplication\\\\_CrossBasement\\\\CrossPage\\\\AdvancedSearch\\\\components\\\\Name.js\";\n\nvar __jsx = React.createElement;\nimport React from 'react';\nimport styled from 'rn-css';\nimport { colors, Text } from \"../../../CrossCore/components/typo\";\nimport { TextInput } from \"../../../CrossCore/components/Forms\";\nvar Container = styled.View(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n    background-color: #fff;\\n    border-radius: 10px;\\n    padding: 15px;\\n\"])));\nvar GenerateButton = styled.TouchableOpacity(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([\"\\n    height: 40px;\\n    width: 200px;\\n    background-color: \", \";\\n    border-radius: 5px;\\n    justify-content: center;\\n    align-items: center;\\n\"])), colors.defaultColor);\nvar GenerateButtonText = styled(Text)(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral([\"\\n    color: #fff;\\n\"])));\nexport default function Name() {\n  return __jsx(Container, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 27,\n      columnNumber: 9\n    }\n  }, __jsx(TextInput, {\n    title: \"Search by first name or last name\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 28,\n      columnNumber: 13\n    }\n  }), __jsx(GenerateButton, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 29,\n      columnNumber: 13\n    }\n  }, __jsx(GenerateButtonText, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 30,\n      columnNumber: 17\n    }\n  }, \"Search\")));\n}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/_CrossBasement/CrossPage/AdvancedSearch/components/Name.js"
+        ],
+        "names": [
+            "React",
+            "styled",
+            "colors",
+            "Text",
+            "TextInput",
+            "Container",
+            "View",
+            "GenerateButton",
+            "TouchableOpacity",
+            "defaultColor",
+            "GenerateButtonText",
+            "Name"
+        ],
+        "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,MAAP,MAAmB,QAAnB;AACA,SAASC,MAAT,EAAiBC,IAAjB;AACA,SAASC,SAAT;AAEA,IAAMC,SAAS,GAAGJ,MAAM,CAACK,IAAV,kJAAf;AAMA,IAAMC,cAAc,GAAGN,MAAM,CAACO,gBAAV,8NAGIN,MAAM,CAACO,YAHX,CAApB;AASA,IAAMC,kBAAkB,GAAGT,MAAM,CAACE,IAAD,CAAT,2FAAxB;AAIA,eAAe,SAASQ,IAAT,GAAgB;AAC3B,SACI,MAAC,SAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACI,MAAC,SAAD;AAAW,IAAA,KAAK,EAAC,mCAAjB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,EAEI,MAAC,cAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACI,MAAC,kBAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,cADJ,CAFJ,CADJ;AAQH",
+        "sourcesContent": [
+            "import React from 'react';\r\nimport styled from 'rn-css';\r\nimport { colors, Text } from '@mevron/cross-core/components/typo';\r\nimport { TextInput } from '@mevron/cross-core/components/Forms';\r\n\r\nconst Container = styled.View`\r\n    background-color: #fff;\r\n    border-radius: 10px;\r\n    padding: 15px;\r\n`;\r\n\r\nconst GenerateButton = styled.TouchableOpacity`\r\n    height: 40px;\r\n    width: 200px;\r\n    background-color: ${colors.defaultColor};\r\n    border-radius: 5px;\r\n    justify-content: center;\r\n    align-items: center;\r\n`;\r\n\r\nconst GenerateButtonText = styled(Text)`\r\n    color: #fff;\r\n`;\r\n\r\nexport default function Name() {\r\n    return (\r\n        <Container>\r\n            <TextInput title=\"Search by first name or last name\" />\r\n            <GenerateButton>\r\n                <GenerateButtonText>Search</GenerateButtonText>\r\n            </GenerateButton>\r\n        </Container>\r\n    );\r\n}\r\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

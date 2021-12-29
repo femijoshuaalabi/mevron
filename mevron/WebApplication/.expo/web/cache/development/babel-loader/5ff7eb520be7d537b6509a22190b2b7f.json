@@ -1,0 +1,17 @@
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\JusticeClock\\\\WebApplication\\\\_CrossBasement\\\\CrossPage\\\\LandingPage\\\\index.js\";\nvar __jsx = React.createElement;\nimport React from 'react';\nimport Text from \"react-native-web/dist/exports/Text\";\nexport function LandingPage() {\n  return __jsx(Text, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5,\n      columnNumber: 12\n    }\n  }, \"Hello Landing Page\");\n}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/mevron/JusticeClock/WebApplication/_CrossBasement/CrossPage/LandingPage/index.js"
+        ],
+        "names": ["React", "LandingPage"],
+        "mappings": ";;AAAA,OAAOA,KAAP,MAAkB,OAAlB;;AAGA,OAAO,SAASC,WAAT,GAAuB;AAC1B,SAAO,MAAC,IAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,0BAAP;AACH",
+        "sourcesContent": [
+            "import React from 'react';\nimport { Text } from 'react-native';\n\nexport function LandingPage() {\n    return <Text>Hello Landing Page</Text>;\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

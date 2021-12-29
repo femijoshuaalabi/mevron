@@ -1,0 +1,17 @@
+{
+    "ast": null,
+    "code": "import React from'react';import Text from\"react-native-web/dist/exports/Text\";export function LandingPage(){return React.createElement(Text,null,\"Hello World\");}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/mevron/JusticeClock/WebApplication/_CrossBasement/CrossPage/LandingPage/index.js"
+        ],
+        "names": ["React", "LandingPage"],
+        "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,C,qDAGA,MAAO,SAASC,CAAAA,WAAT,EAAuB,CAC1B,MAAO,qBAAC,IAAD,oBAAP,CACH",
+        "sourcesContent": [
+            "import React from 'react';\nimport { Text } from 'react-native';\n\nexport function LandingPage() {\n    return <Text>Hello World</Text>;\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

@@ -1,0 +1,25 @@
+{
+    "ast": null,
+    "code": "import'react-app-polyfill/ie11';import'react-app-polyfill/stable';import AppRegistry from\"react-native-web/dist/exports/AppRegistry\";import*as serviceWorker from\"./serviceWorker\";import App from\"./App\";AppRegistry.registerComponent('App',function(){return App;});AppRegistry.runApplication('App',{rootTag:document.getElementById('root')});serviceWorker.unregister();",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/index.jsx"],
+        "names": [
+            "serviceWorker",
+            "App",
+            "AppRegistry",
+            "registerComponent",
+            "runApplication",
+            "rootTag",
+            "document",
+            "getElementById",
+            "unregister"
+        ],
+        "mappings": "AAAA,MAAO,yBAAP,CACA,MAAO,2BAAP,C,mEAEA,MAAO,GAAKA,CAAAA,aAAZ,uBACA,MAAOC,CAAAA,GAAP,aAEAC,WAAW,CAACC,iBAAZ,CAA8B,KAA9B,CAAqC,iBAAMF,CAAAA,GAAN,EAArC,EAEAC,WAAW,CAACE,cAAZ,CAA2B,KAA3B,CAAkC,CAC9BC,OAAO,CAAEC,QAAQ,CAACC,cAAT,CAAwB,MAAxB,CADqB,CAAlC,EAOAP,aAAa,CAACQ,UAAd",
+        "sourcesContent": [
+            "import 'react-app-polyfill/ie11';\nimport 'react-app-polyfill/stable';\nimport { AppRegistry } from 'react-native';\nimport * as serviceWorker from './serviceWorker';\nimport App from './App';\n\nAppRegistry.registerComponent('App', () => App);\n\nAppRegistry.runApplication('App', {\n    rootTag: document.getElementById('root'),\n});\n\n// If you want your app to work offline and load faster, you can change\n// unregister() to register() below. Note this comes with some pitfalls.\n// Learn more about service workers: https://bit.ly/CRA-PWA\nserviceWorker.unregister();\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

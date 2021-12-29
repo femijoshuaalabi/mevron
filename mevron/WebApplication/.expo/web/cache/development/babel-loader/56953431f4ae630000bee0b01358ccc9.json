@@ -1,0 +1,15 @@
+{
+    "ast": null,
+    "code": "export { default } from '@expo/next-adapter/document';",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/pages/_document.js"],
+        "names": ["default"],
+        "mappings": "AACA,SAASA,OAAT,QAAwB,6BAAxB",
+        "sourcesContent": [
+            "// @generated: @expo/next-adapter@2.1.52\nexport { default } from '@expo/next-adapter/document';\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

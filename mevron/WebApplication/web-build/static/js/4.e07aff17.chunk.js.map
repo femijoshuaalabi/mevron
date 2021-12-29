@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "sources": [
+        "_CrossBasement/CrossPage/LandingPage/index.js",
+        "src/pages/LandingPage/desktop/index.js",
+        "src/pages/LandingPage/mobile/index.js",
+        "src/pages/LandingPage/index.js"
+    ],
+    "names": [
+        "LandingPage",
+        "Text",
+        "props",
+        "useMediaQuery",
+        "minWidth"
+    ],
+    "mappings": "2KAGO,SAASA,IACZ,OAAO,kBAACC,EAAA,EAAD,oBCDI,SAASD,EAAYE,GAChC,OAAO,kBAAC,EAAD,MCDI,SAASF,EAAYE,GAChC,OAAO,kBAAC,EAAD,MCCI,SAASF,IAEpB,OADkBG,wBAAc,CAAEC,SAAU,MACzB,kBAAC,EAAD,MAAc,kBAAC,EAAD",
+    "file": "static/js/4.e07aff17.chunk.js",
+    "sourcesContent": [
+        "import React from 'react';\nimport { Text } from 'react-native';\n\nexport function LandingPage() {\n    return <Text>Hello World</Text>;\n}\n",
+        "import React from 'react';\nimport { LandingPage as Page } from '@mevron/cross-page/LandingPage';\n\nexport default function LandingPage(props) {\n    return <Page />;\n}\n",
+        "import React from 'react';\nimport { LandingPage as Page } from '@mevron/cross-page/LandingPage';\n\nexport default function LandingPage(props) {\n    return <Page />;\n}\n",
+        "import React from 'react';\nimport { useMediaQuery } from 'react-responsive';\nimport Desktop from './desktop';\nimport Mobile from './mobile';\n\nexport default function LandingPage() {\n    const isDesktop = useMediaQuery({ minWidth: 767 });\n    return isDesktop ? <Desktop /> : <Mobile />;\n}\n"
+    ],
+    "sourceRoot": ""
+}

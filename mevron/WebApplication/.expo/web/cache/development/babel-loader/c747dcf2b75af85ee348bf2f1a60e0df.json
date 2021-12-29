@@ -1,0 +1,17 @@
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\JusticeClock\\\\JusticeClock\\\\WebApplication\\\\_CrossBasement\\\\CrossPage\\\\Reports\\\\index.js\";\nvar __jsx = React.createElement;\nimport React from 'react';\nimport SelectBox from \"../../CrossCore/components/Select\";\nexport default function Reports() {\n  return __jsx(\"div\", {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5,\n      columnNumber: 12\n    }\n  }, \"Hello world\");\n}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/_CrossBasement/CrossPage/Reports/index.js"
+        ],
+        "names": ["React", "SelectBox", "Reports"],
+        "mappings": ";;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,SAAP;AAEA,eAAe,SAASC,OAAT,GAAmB;AAC9B,SAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAAP;AACH",
+        "sourcesContent": [
+            "import React from 'react';\r\nimport SelectBox from '@mevron/cross-core/components/Select';\r\n\r\nexport default function Reports() {\r\n    return <div>Hello world</div>;\r\n}\r\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

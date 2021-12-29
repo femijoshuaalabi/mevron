@@ -1,0 +1,34 @@
+{
+    "ast": null,
+    "code": "import _extends from \"@babel/runtime/helpers/extends\";\nimport _taggedTemplateLiteral from \"@babel/runtime/helpers/taggedTemplateLiteral\";\n\nvar _templateObject,\n    _templateObject2,\n    _templateObject3,\n    _jsxFileName = \"C:\\\\GavelProjects\\\\JusticeClock\\\\JusticeClock\\\\WebApplication\\\\src\\\\Sidebar\\\\components\\\\LogoTrans.js\";\n\nvar __jsx = React.createElement;\nimport React from 'react';\nimport { motion, AnimatePresence } from 'framer-motion';\nimport { fadeOut } from \"./transitions\";\nimport { useMenuStates } from \"./useMenuStates\";\nimport styled from 'rn-css';\nimport styled2 from 'styled-components';\nimport { colors } from \"../../../_CrossBasement/CrossCore/components/typo\";\nvar LogoContainer = styled2.div(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n    background-color: \", \";\\n    padding: 20px;\\n    position: relative;\\n    justify-content: center;\\n    align-items: center;\\n    display: flex;\\n\"])), colors.backgroundColor);\nvar Logo = styled.Image(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([\"\\n    height: 55px;\\n    width: 120px;\\n    z-index: 2;\\n\"])));\nvar LogoSmall = styled.Image(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral([\"\\n    height: 20px;\\n    width: 20px;\\n    z-index: 2;\\n\"])));\nexport default function LogoTrans() {\n  var menuStates = useMenuStates().get();\n  return __jsx(LogoContainer, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 32,\n      columnNumber: 9\n    }\n  }, __jsx(AnimatePresence, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 33,\n      columnNumber: 13\n    }\n  }, !menuStates ? __jsx(motion.div, _extends({}, fadeOut, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 35,\n      columnNumber: 21\n    }\n  }), __jsx(LogoSmall, {\n    source: require(\"../../../_CrossBasement/CrossCore/assets/jc-mini.png\"),\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 36,\n      columnNumber: 25\n    }\n  })) : null, menuStates ? __jsx(motion.div, _extends({}, fadeOut, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 40,\n      columnNumber: 21\n    }\n  }), __jsx(Logo, {\n    source: require(\"../../../_CrossBasement/CrossCore/assets/jcmoj.png\"),\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 41,\n      columnNumber: 25\n    }\n  })) : null));\n}",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/src/Sidebar/components/LogoTrans.js"],
+        "names": [
+            "React",
+            "motion",
+            "AnimatePresence",
+            "fadeOut",
+            "useMenuStates",
+            "styled",
+            "styled2",
+            "colors",
+            "LogoContainer",
+            "div",
+            "backgroundColor",
+            "Logo",
+            "Image",
+            "LogoSmall",
+            "LogoTrans",
+            "menuStates",
+            "get",
+            "require"
+        ],
+        "mappings": ";;;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,MAAT,EAAiBC,eAAjB,QAAwC,eAAxC;AACA,SAASC,OAAT;AACA,SAASC,aAAT;AACA,OAAOC,MAAP,MAAmB,QAAnB;AACA,OAAOC,OAAP,MAAoB,mBAApB;AACA,SAASC,MAAT;AAEA,IAAMC,aAAa,GAAGF,OAAO,CAACG,GAAX,8NACKF,MAAM,CAACG,eADZ,CAAnB;AASA,IAAMC,IAAI,GAAGN,MAAM,CAACO,KAAV,gIAAV;AAKA,IAAMC,SAAS,GAAGR,MAAM,CAACO,KAAV,+HAAf;AAMA,eAAe,SAASE,SAAT,GAAqB;AAChC,MAAMC,UAAU,GAAGX,aAAa,GAAGY,GAAhB,EAAnB;AACA,SACI,MAAC,aAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACI,MAAC,eAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACK,CAACD,UAAD,GACG,MAAC,MAAD,CAAQ,GAAR,eAAgBZ,OAAhB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MACI,MAAC,SAAD;AAAW,IAAA,MAAM,EAAEc,OAAO,wDAA1B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,CADH,GAIG,IALR,EAMKF,UAAU,GACP,MAAC,MAAD,CAAQ,GAAR,eAAgBZ,OAAhB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MACI,MAAC,IAAD;AAAM,IAAA,MAAM,EAAEc,OAAO,sDAArB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,CADO,GAIP,IAVR,CADJ,CADJ;AAgBH",
+        "sourcesContent": [
+            "import React from 'react';\r\nimport { motion, AnimatePresence } from 'framer-motion';\r\nimport { fadeOut } from './transitions';\r\nimport { useMenuStates } from './useMenuStates';\r\nimport styled from 'rn-css';\r\nimport styled2 from 'styled-components';\r\nimport { colors } from '@mevron/cross-core/components/typo';\r\n\r\nconst LogoContainer = styled2.div`\r\n    background-color: ${colors.backgroundColor};\r\n    padding: 20px;\r\n    position: relative;\r\n    justify-content: center;\r\n    align-items: center;\r\n    display: flex;\r\n`;\r\n\r\nconst Logo = styled.Image`\r\n    height: 55px;\r\n    width: 120px;\r\n    z-index: 2;\r\n`;\r\nconst LogoSmall = styled.Image`\r\n    height: 20px;\r\n    width: 20px;\r\n    z-index: 2;\r\n`;\r\n\r\nexport default function LogoTrans() {\r\n    const menuStates = useMenuStates().get();\r\n    return (\r\n        <LogoContainer>\r\n            <AnimatePresence>\r\n                {!menuStates ? (\r\n                    <motion.div {...fadeOut}>\r\n                        <LogoSmall source={require('@mevron/cross-core/assets/jc-mini.png')} />\r\n                    </motion.div>\r\n                ) : null}\r\n                {menuStates ? (\r\n                    <motion.div {...fadeOut}>\r\n                        <Logo source={require('@mevron/cross-core/assets/jcmoj.png')} />\r\n                    </motion.div>\r\n                ) : null}\r\n            </AnimatePresence>\r\n        </LogoContainer>\r\n    );\r\n}\r\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

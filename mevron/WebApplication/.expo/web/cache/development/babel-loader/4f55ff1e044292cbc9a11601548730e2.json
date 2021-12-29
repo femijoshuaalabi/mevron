@@ -1,0 +1,31 @@
+{
+    "ast": null,
+    "code": "import _extends from \"@babel/runtime/helpers/extends\";\nvar _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\JusticeClock\\\\WebApplication\\\\src\\\\Sidebar\\\\components\\\\SidebarToggle.js\";\nvar __jsx = React.createElement;\nimport React, { useEffect } from 'react';\nimport { fadeOut } from \"./transitions\";\nimport { useMenuStates } from \"./useMenuStates\";\nimport { colors } from '@mevron/cross-core/components/typo';\nimport { motion } from 'framer-motion';\nimport { Feather } from '@expo/vector-icons';\nimport { useMediaQuery } from 'react-responsive';\nexport default function SidebarToggle() {\n  var menuStates = useMenuStates();\n  var openSidebarDefault = useMediaQuery({\n    minWidth: 1140\n  });\n  useEffect(function () {\n    if (openSidebarDefault) {\n      menuStates.set(true);\n    } else {\n      menuStates.set(false);\n    }\n  }, [openSidebarDefault]);\n  return __jsx(\"div\", {\n    className: \"toggle\",\n    onClick: function onClick() {\n      return menuStates.set(!menuStates.get());\n    },\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 22,\n      columnNumber: 9\n    }\n  }, !menuStates.get() ? __jsx(motion.div, _extends({}, fadeOut, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 24,\n      columnNumber: 17\n    }\n  }), __jsx(Feather, {\n    name: \"chevron-right\",\n    size: 24,\n    color: colors.defaultColor,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 25,\n      columnNumber: 21\n    }\n  })) : null, menuStates.get() ? __jsx(motion.div, _extends({}, fadeOut, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 29,\n      columnNumber: 17\n    }\n  }), __jsx(Feather, {\n    name: \"chevron-left\",\n    size: 24,\n    color: colors.defaultColor,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 30,\n      columnNumber: 21\n    }\n  })) : null);\n}",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/Sidebar/components/SidebarToggle.js"],
+        "names": [
+            "React",
+            "useEffect",
+            "fadeOut",
+            "useMenuStates",
+            "colors",
+            "motion",
+            "Feather",
+            "useMediaQuery",
+            "SidebarToggle",
+            "menuStates",
+            "openSidebarDefault",
+            "minWidth",
+            "set",
+            "get",
+            "defaultColor"
+        ],
+        "mappings": ";;;AAAA,OAAOA,KAAP,IAAgBC,SAAhB,QAAiC,OAAjC;AACA,SAASC,OAAT;AACA,SAASC,aAAT;AACA,SAASC,MAAT,QAAuB,mCAAvB;AACA,SAASC,MAAT,QAAuB,eAAvB;AACA,SAASC,OAAT,QAAwB,oBAAxB;AACA,SAASC,aAAT,QAA8B,kBAA9B;AAEA,eAAe,SAASC,aAAT,GAAyB;AACpC,MAAMC,UAAU,GAAGN,aAAa,EAAhC;AACA,MAAMO,kBAAkB,GAAGH,aAAa,CAAC;AAAEI,IAAAA,QAAQ,EAAE;AAAZ,GAAD,CAAxC;AAEAV,EAAAA,SAAS,CAAC,YAAM;AACZ,QAAIS,kBAAJ,EAAwB;AACpBD,MAAAA,UAAU,CAACG,GAAX,CAAe,IAAf;AACH,KAFD,MAEO;AACHH,MAAAA,UAAU,CAACG,GAAX,CAAe,KAAf;AACH;AACJ,GANQ,EAMN,CAACF,kBAAD,CANM,CAAT;AAQA,SACI;AAAK,IAAA,SAAS,EAAC,QAAf;AAAwB,IAAA,OAAO,EAAE;AAAA,aAAMD,UAAU,CAACG,GAAX,CAAe,CAACH,UAAU,CAACI,GAAX,EAAhB,CAAN;AAAA,KAAjC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACK,CAACJ,UAAU,CAACI,GAAX,EAAD,GACG,MAAC,MAAD,CAAQ,GAAR,eAAgBX,OAAhB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MACI,MAAC,OAAD;AAAS,IAAA,IAAI,EAAC,eAAd;AAA8B,IAAA,IAAI,EAAE,EAApC;AAAwC,IAAA,KAAK,EAAEE,MAAM,CAACU,YAAtD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,CADH,GAIG,IALR,EAMKL,UAAU,CAACI,GAAX,KACG,MAAC,MAAD,CAAQ,GAAR,eAAgBX,OAAhB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MACI,MAAC,OAAD;AAAS,IAAA,IAAI,EAAC,cAAd;AAA6B,IAAA,IAAI,EAAE,EAAnC;AAAuC,IAAA,KAAK,EAAEE,MAAM,CAACU,YAArD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADJ,CADH,GAIG,IAVR,CADJ;AAcH",
+        "sourcesContent": [
+            "import React, { useEffect } from 'react';\r\nimport { fadeOut } from './transitions';\r\nimport { useMenuStates } from './useMenuStates';\r\nimport { colors } from '@mevron/cross-core/components/typo';\r\nimport { motion } from 'framer-motion';\r\nimport { Feather } from '@expo/vector-icons';\r\nimport { useMediaQuery } from 'react-responsive';\r\n\r\nexport default function SidebarToggle() {\r\n    const menuStates = useMenuStates();\r\n    const openSidebarDefault = useMediaQuery({ minWidth: 1140 });\r\n\r\n    useEffect(() => {\r\n        if (openSidebarDefault) {\r\n            menuStates.set(true);\r\n        } else {\r\n            menuStates.set(false);\r\n        }\r\n    }, [openSidebarDefault]);\r\n\r\n    return (\r\n        <div className=\"toggle\" onClick={() => menuStates.set(!menuStates.get())}>\r\n            {!menuStates.get() ? (\r\n                <motion.div {...fadeOut}>\r\n                    <Feather name=\"chevron-right\" size={24} color={colors.defaultColor} />\r\n                </motion.div>\r\n            ) : null}\r\n            {menuStates.get() ? (\r\n                <motion.div {...fadeOut}>\r\n                    <Feather name=\"chevron-left\" size={24} color={colors.defaultColor} />\r\n                </motion.div>\r\n            ) : null}\r\n        </div>\r\n    );\r\n}\r\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

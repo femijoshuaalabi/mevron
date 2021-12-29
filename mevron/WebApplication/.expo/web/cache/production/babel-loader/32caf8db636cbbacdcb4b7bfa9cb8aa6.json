@@ -1,0 +1,15 @@
+{
+    "ast": null,
+    "code": "import React,{Suspense,lazy}from'react';import{BrowserRouter,Switch,Route}from'react-router-dom';var Routes=function Routes(){return React.createElement(BrowserRouter,null,React.createElement(Suspense,{fallback:\"Loading...\"},React.createElement(Switch,null,React.createElement(Route,{exact:true,path:\"/\",component:lazy(function(){return import(\"../pages/LandingPage\");})}))));};export default Routes;",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/routes/index.js"],
+        "names": ["React", "Suspense", "lazy", "BrowserRouter", "Switch", "Route", "Routes"],
+        "mappings": "AAAA,MAAOA,CAAAA,KAAP,EAAgBC,QAAhB,CAA0BC,IAA1B,KAAsC,OAAtC,CACA,OAASC,aAAT,CAAwBC,MAAxB,CAAgCC,KAAhC,KAA6C,kBAA7C,CAEA,GAAMC,CAAAA,MAAM,CAAG,QAATA,CAAAA,MAAS,EAAM,CACjB,MACI,qBAAC,aAAD,MACI,oBAAC,QAAD,EAAU,QAAQ,CAAC,YAAnB,EACI,oBAAC,MAAD,MACI,oBAAC,KAAD,EAAO,KAAK,KAAZ,CAAa,IAAI,CAAC,GAAlB,CAAsB,SAAS,CAAEJ,IAAI,CAAC,iBAAM,+BAAN,EAAD,CAArC,EADJ,CADJ,CADJ,CADJ,CASH,CAVD,CAYA,cAAeI,CAAAA,MAAf",
+        "sourcesContent": [
+            "import React, { Suspense, lazy } from 'react';\nimport { BrowserRouter, Switch, Route } from 'react-router-dom';\n\nconst Routes = () => {\n    return (\n        <BrowserRouter>\n            <Suspense fallback=\"Loading...\">\n                <Switch>\n                    <Route exact path=\"/\" component={lazy(() => import(`../pages/LandingPage`))} />\n                </Switch>\n            </Suspense>\n        </BrowserRouter>\n    );\n};\n\nexport default Routes;\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

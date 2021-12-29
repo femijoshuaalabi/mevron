@@ -1,0 +1,17 @@
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\JusticeClock\\\\JusticeClock\\\\WebApplication\\\\src\\\\pages\\\\AdvancedSearch\\\\desktop\\\\index.js\";\nvar __jsx = React.createElement;\nimport React from 'react';\nimport { default as Page } from \"../../../../_CrossBasement/CrossPage/AdvancedSearch\";\nexport default function AdvancedSearch(props) {\n  return __jsx(Page, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5,\n      columnNumber: 12\n    }\n  });\n}",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/src/pages/AdvancedSearch/desktop/index.js"
+        ],
+        "names": ["React", "default", "Page", "AdvancedSearch", "props"],
+        "mappings": ";;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,OAAO,IAAIC,IAApB;AAEA,eAAe,SAASC,cAAT,CAAwBC,KAAxB,EAA+B;AAC1C,SAAO,MAAC,IAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAP;AACH",
+        "sourcesContent": [
+            "import React from 'react';\nimport { default as Page } from '@mevron/cross-page/AdvancedSearch';\n\nexport default function AdvancedSearch(props) {\n    return <Page />;\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}
