@@ -3,7 +3,7 @@
     "code": "import'react-app-polyfill/ie11';import'react-app-polyfill/stable';import AppRegistry from\"react-native-web/dist/exports/AppRegistry\";import*as serviceWorker from\"./serviceWorker\";import App from\"./App\";AppRegistry.registerComponent('App',function(){return App;});AppRegistry.runApplication('App',{rootTag:document.getElementById('root')});serviceWorker.unregister();",
     "map": {
         "version": 3,
-        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/index.jsx"],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/index.jsx"],
         "names": [
             "serviceWorker",
             "App",

@@ -3,7 +3,7 @@
     "code": "import { createState, useState } from '@hookstate/core';\nvar globalState = createState(true);\n\nvar wrapState = function wrapState(s) {\n  return {\n    get: function get() {\n      return s.value;\n    },\n    set: function set(value) {\n      return s.set(value);\n    }\n  };\n};\n\nexport var useMenuStates = function useMenuStates() {\n  return wrapState(useState(globalState));\n};",
     "map": {
         "version": 3,
-        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/Sidebar/components/useMenuStates.js"],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/Sidebar/components/useMenuStates.js"],
         "names": ["createState", "useState", "globalState", "wrapState", "s", "get", "value", "set", "useMenuStates"],
         "mappings": "AAAA,SAASA,WAAT,EAAsBC,QAAtB,QAAsC,iBAAtC;AAEA,IAAMC,WAAW,GAAGF,WAAW,CAAC,IAAD,CAA/B;;AACA,IAAMG,SAAS,GAAG,SAAZA,SAAY,CAACC,CAAD;AAAA,SAAQ;AACtBC,IAAAA,GAAG,EAAE;AAAA,aAAMD,CAAC,CAACE,KAAR;AAAA,KADiB;AAEtBC,IAAAA,GAAG,EAAE,aAACD,KAAD;AAAA,aAAWF,CAAC,CAACG,GAAF,CAAMD,KAAN,CAAX;AAAA;AAFiB,GAAR;AAAA,CAAlB;;AAIA,OAAO,IAAME,aAAa,GAAG,SAAhBA,aAAgB;AAAA,SAAML,SAAS,CAACF,QAAQ,CAACC,WAAD,CAAT,CAAf;AAAA,CAAtB",
         "sourcesContent": [

@@ -1,9 +1,9 @@
 {
     "ast": null,
-    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\JusticeClock\\\\WebApplication\\\\src\\\\pages\\\\LandingPage\\\\desktop\\\\index.js\";\nvar __jsx = React.createElement;\nimport React from 'react';\nimport { LandingPage as Page } from \"../../../../_CrossBasement/CrossPage/LandingPage\";\nexport default function LandingPage(props) {\n  return __jsx(Page, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5,\n      columnNumber: 12\n    }\n  });\n}",
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\mevron\\\\WebApplication\\\\src\\\\pages\\\\LandingPage\\\\desktop\\\\index.js\";\nvar __jsx = React.createElement;\nimport React from 'react';\nimport { LandingPage as Page } from \"../../../../_CrossBasement/CrossPage/LandingPage\";\nexport default function LandingPage(props) {\n  return __jsx(Page, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5,\n      columnNumber: 12\n    }\n  });\n}",
     "map": {
         "version": 3,
-        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/pages/LandingPage/desktop/index.js"],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/pages/LandingPage/desktop/index.js"],
         "names": ["React", "LandingPage", "Page", "props"],
         "mappings": ";;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,WAAW,IAAIC,IAAxB;AAEA,eAAe,SAASD,WAAT,CAAqBE,KAArB,EAA4B;AACvC,SAAO,MAAC,IAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAP;AACH",
         "sourcesContent": [

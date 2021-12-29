@@ -79,7 +79,7 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    entryFile: "justiceClock/NativeCore/index.js",
+    entryFile: "mevron/NativeCore/index.js",
     enableHermes: true,  // clean and rebuild if changing
     root: "../../../../",
     // nodeExecutableAndArgs : ["/usr/local/bin/node"],
@@ -134,7 +134,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.justiceClock"
+        applicationId "com.mevron"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

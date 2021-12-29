@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "justiceClock-tvOS.app"
-               BlueprintName = "justiceClock-tvOS"
-               ReferencedContainer = "container:justiceClock.xcodeproj">
+               BuildableName = "mevron-tvOS.app"
+               BlueprintName = "mevron-tvOS"
+               ReferencedContainer = "container:mevron.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "justiceClock-tvOSTests.xctest"
-               BlueprintName = "justiceClock-tvOSTests"
-               ReferencedContainer = "container:justiceClock.xcodeproj">
+               BuildableName = "mevron-tvOSTests.xctest"
+               BlueprintName = "mevron-tvOSTests"
+               ReferencedContainer = "container:mevron.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "justiceClock-tvOS.app"
-            BlueprintName = "justiceClock-tvOS"
-            ReferencedContainer = "container:justiceClock.xcodeproj">
+            BuildableName = "mevron-tvOS.app"
+            BlueprintName = "mevron-tvOS"
+            ReferencedContainer = "container:mevron.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "justiceClock-tvOS.app"
-            BlueprintName = "justiceClock-tvOS"
-            ReferencedContainer = "container:justiceClock.xcodeproj">
+            BuildableName = "mevron-tvOS.app"
+            BlueprintName = "mevron-tvOS"
+            ReferencedContainer = "container:mevron.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

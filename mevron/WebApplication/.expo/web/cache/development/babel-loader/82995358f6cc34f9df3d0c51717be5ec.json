@@ -1,1 +1,15 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nexport default function AdvancedSearch() {\n  return __jsx(React.Fragment, null);\n}","map":{"version":3,"sources":["C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/src/pages/AdvancedSearch/index.js"],"names":["React","AdvancedSearch"],"mappings":";AAAA,OAAOA,KAAP,MAAkB,OAAlB;AAEA,eAAe,SAASC,cAAT,GAA0B;AACrC,SAAO,2BAAP;AACH","sourcesContent":["import React from 'react';\n\nexport default function AdvancedSearch() {\n    return <></>;\n}\n"]},"metadata":{},"sourceType":"module"}
+{
+    "ast": null,
+    "code": "var __jsx = React.createElement;\nimport React from 'react';\nexport default function AdvancedSearch() {\n  return __jsx(React.Fragment, null);\n}",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/pages/AdvancedSearch/index.js"],
+        "names": ["React", "AdvancedSearch"],
+        "mappings": ";AAAA,OAAOA,KAAP,MAAkB,OAAlB;AAEA,eAAe,SAASC,cAAT,GAA0B;AACrC,SAAO,2BAAP;AACH",
+        "sourcesContent": [
+            "import React from 'react';\n\nexport default function AdvancedSearch() {\n    return <></>;\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

@@ -1,1 +1,27 @@
-{"ast":null,"code":"var _jsxFileName = \"C:\\\\GavelProjects\\\\JusticeClock\\\\JusticeClock\\\\WebApplication\\\\src\\\\pages\\\\AdvancedSearch\\\\index.js\";\nvar __jsx = React.createElement;\nimport React, { useState } from 'react';\nimport Select from 'react-select';\nvar options = [{\n  value: 'chocolate',\n  label: 'Chocolate'\n}, {\n  value: 'strawberry',\n  label: 'Strawberry'\n}, {\n  value: 'vanilla',\n  label: 'Vanilla'\n}];\nexport default function AdvancedSearch() {\n  var _useState = useState({\n    selectedOption: null\n  }),\n      state = _useState[0],\n      setState = _useState[1];\n\n  var handleChange = function handleChange(selectedOption) {\n    setState({\n      selectedOption: selectedOption\n    });\n  };\n\n  var selectedOption = state.selectedOption;\n  return __jsx(Select, {\n    value: selectedOption,\n    onChange: handleChange,\n    options: options,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 19,\n      columnNumber: 12\n    }\n  });\n}","map":{"version":3,"sources":["C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/src/pages/AdvancedSearch/index.js"],"names":["React","useState","Select","options","value","label","AdvancedSearch","selectedOption","state","setState","handleChange"],"mappings":";;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,QAAgC,OAAhC;AACA,OAAOC,MAAP,MAAmB,cAAnB;AAEA,IAAMC,OAAO,GAAG,CACZ;AAAEC,EAAAA,KAAK,EAAE,WAAT;AAAsBC,EAAAA,KAAK,EAAE;AAA7B,CADY,EAEZ;AAAED,EAAAA,KAAK,EAAE,YAAT;AAAuBC,EAAAA,KAAK,EAAE;AAA9B,CAFY,EAGZ;AAAED,EAAAA,KAAK,EAAE,SAAT;AAAoBC,EAAAA,KAAK,EAAE;AAA3B,CAHY,CAAhB;AAMA,eAAe,SAASC,cAAT,GAA0B;AACrC,kBAA0BL,QAAQ,CAAC;AAC/BM,IAAAA,cAAc,EAAE;AADe,GAAD,CAAlC;AAAA,MAAOC,KAAP;AAAA,MAAcC,QAAd;;AAGA,MAAMC,YAAY,GAAG,SAAfA,YAAe,CAACH,cAAD,EAAoB;AACrCE,IAAAA,QAAQ,CAAC;AAAEF,MAAAA,cAAc,EAAdA;AAAF,KAAD,CAAR;AAEH,GAHD;;AAIA,MAAQA,cAAR,GAA2BC,KAA3B,CAAQD,cAAR;AACA,SAAO,MAAC,MAAD;AAAQ,IAAA,KAAK,EAAEA,cAAf;AAA+B,IAAA,QAAQ,EAAEG,YAAzC;AAAuD,IAAA,OAAO,EAAEP,OAAhE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAP;AACH","sourcesContent":["import React, { useState } from 'react';\nimport Select from 'react-select';\n\nconst options = [\n    { value: 'chocolate', label: 'Chocolate' },\n    { value: 'strawberry', label: 'Strawberry' },\n    { value: 'vanilla', label: 'Vanilla' },\n];\n\nexport default function AdvancedSearch() {\n    const [state, setState] = useState({\n        selectedOption: null,\n    });\n    const handleChange = (selectedOption) => {\n        setState({ selectedOption });\n        // console.log(`Option selected:`, selectedOption);\n    };\n    const { selectedOption } = state;\n    return <Select value={selectedOption} onChange={handleChange} options={options} />;\n}\n"]},"metadata":{},"sourceType":"module"}
+{
+    "ast": null,
+    "code": "var _jsxFileName = \"C:\\\\GavelProjects\\\\mevron\\\\mevron\\\\WebApplication\\\\src\\\\pages\\\\AdvancedSearch\\\\index.js\";\nvar __jsx = React.createElement;\nimport React, { useState } from 'react';\nimport Select from 'react-select';\nvar options = [{\n  value: 'chocolate',\n  label: 'Chocolate'\n}, {\n  value: 'strawberry',\n  label: 'Strawberry'\n}, {\n  value: 'vanilla',\n  label: 'Vanilla'\n}];\nexport default function AdvancedSearch() {\n  var _useState = useState({\n    selectedOption: null\n  }),\n      state = _useState[0],\n      setState = _useState[1];\n\n  var handleChange = function handleChange(selectedOption) {\n    setState({\n      selectedOption: selectedOption\n    });\n  };\n\n  var selectedOption = state.selectedOption;\n  return __jsx(Select, {\n    value: selectedOption,\n    onChange: handleChange,\n    options: options,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 19,\n      columnNumber: 12\n    }\n  });\n}",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/pages/AdvancedSearch/index.js"],
+        "names": [
+            "React",
+            "useState",
+            "Select",
+            "options",
+            "value",
+            "label",
+            "AdvancedSearch",
+            "selectedOption",
+            "state",
+            "setState",
+            "handleChange"
+        ],
+        "mappings": ";;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,QAAgC,OAAhC;AACA,OAAOC,MAAP,MAAmB,cAAnB;AAEA,IAAMC,OAAO,GAAG,CACZ;AAAEC,EAAAA,KAAK,EAAE,WAAT;AAAsBC,EAAAA,KAAK,EAAE;AAA7B,CADY,EAEZ;AAAED,EAAAA,KAAK,EAAE,YAAT;AAAuBC,EAAAA,KAAK,EAAE;AAA9B,CAFY,EAGZ;AAAED,EAAAA,KAAK,EAAE,SAAT;AAAoBC,EAAAA,KAAK,EAAE;AAA3B,CAHY,CAAhB;AAMA,eAAe,SAASC,cAAT,GAA0B;AACrC,kBAA0BL,QAAQ,CAAC;AAC/BM,IAAAA,cAAc,EAAE;AADe,GAAD,CAAlC;AAAA,MAAOC,KAAP;AAAA,MAAcC,QAAd;;AAGA,MAAMC,YAAY,GAAG,SAAfA,YAAe,CAACH,cAAD,EAAoB;AACrCE,IAAAA,QAAQ,CAAC;AAAEF,MAAAA,cAAc,EAAdA;AAAF,KAAD,CAAR;AAEH,GAHD;;AAIA,MAAQA,cAAR,GAA2BC,KAA3B,CAAQD,cAAR;AACA,SAAO,MAAC,MAAD;AAAQ,IAAA,KAAK,EAAEA,cAAf;AAA+B,IAAA,QAAQ,EAAEG,YAAzC;AAAuD,IAAA,OAAO,EAAEP,OAAhE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAP;AACH",
+        "sourcesContent": [
+            "import React, { useState } from 'react';\nimport Select from 'react-select';\n\nconst options = [\n    { value: 'chocolate', label: 'Chocolate' },\n    { value: 'strawberry', label: 'Strawberry' },\n    { value: 'vanilla', label: 'Vanilla' },\n];\n\nexport default function AdvancedSearch() {\n    const [state, setState] = useState({\n        selectedOption: null,\n    });\n    const handleChange = (selectedOption) => {\n        setState({ selectedOption });\n        // console.log(`Option selected:`, selectedOption);\n    };\n    const { selectedOption } = state;\n    return <Select value={selectedOption} onChange={handleChange} options={options} />;\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

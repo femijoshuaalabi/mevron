@@ -3,7 +3,7 @@
     "code": "import React from'react';import{useMediaQuery}from'react-responsive';import Desktop from\"./desktop\";import Mobile from\"./mobile\";export default function LandingPage(){var isDesktop=useMediaQuery({minWidth:767});return isDesktop?React.createElement(Desktop,null):React.createElement(Mobile,null);}",
     "map": {
         "version": 3,
-        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/pages/LandingPage/index.js"],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/pages/LandingPage/index.js"],
         "names": ["React", "useMediaQuery", "Desktop", "Mobile", "LandingPage", "isDesktop", "minWidth"],
         "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CACA,OAASC,aAAT,KAA8B,kBAA9B,CACA,MAAOC,CAAAA,OAAP,iBACA,MAAOC,CAAAA,MAAP,gBAEA,cAAe,SAASC,CAAAA,WAAT,EAAuB,CAClC,GAAMC,CAAAA,SAAS,CAAGJ,aAAa,CAAC,CAAEK,QAAQ,CAAE,GAAZ,CAAD,CAA/B,CACA,MAAOD,CAAAA,SAAS,CAAG,oBAAC,OAAD,MAAH,CAAiB,oBAAC,MAAD,MAAjC,CACH",
         "sourcesContent": [

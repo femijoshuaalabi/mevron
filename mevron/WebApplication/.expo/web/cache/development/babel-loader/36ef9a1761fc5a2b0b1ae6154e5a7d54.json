@@ -1,1 +1,15 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nexport default function LandingPage() {\n  return __jsx(React.Fragment, null);\n}","map":{"version":3,"sources":["C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/src/pages/LandingPage/index.js"],"names":["React","LandingPage"],"mappings":";AAAA,OAAOA,KAAP,MAAkB,OAAlB;AAEA,eAAe,SAASC,WAAT,GAAuB;AAClC,SAAO,2BAAP;AACH","sourcesContent":["import React from 'react';\n\nexport default function LandingPage() {\n    return <></>;\n}\n"]},"metadata":{},"sourceType":"module"}
+{
+    "ast": null,
+    "code": "var __jsx = React.createElement;\nimport React from 'react';\nexport default function LandingPage() {\n  return __jsx(React.Fragment, null);\n}",
+    "map": {
+        "version": 3,
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/pages/LandingPage/index.js"],
+        "names": ["React", "LandingPage"],
+        "mappings": ";AAAA,OAAOA,KAAP,MAAkB,OAAlB;AAEA,eAAe,SAASC,WAAT,GAAuB;AAClC,SAAO,2BAAP;AACH",
+        "sourcesContent": [
+            "import React from 'react';\n\nexport default function LandingPage() {\n    return <></>;\n}\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

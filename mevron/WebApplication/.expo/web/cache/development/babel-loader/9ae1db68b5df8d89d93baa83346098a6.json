@@ -3,9 +3,7 @@
     "code": "import _taggedTemplateLiteral from \"@babel/runtime/helpers/taggedTemplateLiteral\";\n\nvar _templateObject, _templateObject2;\n\nimport styled from 'rn-css';\nexport var colors = {\n  backgroundColor: '#f9f9f8',\n  textColor: '#14171a',\n  textColor2: '#777',\n  defaultColor: '#FF6600',\n  fadedOrange: '#FFE8C6',\n  grey: '#C4C4C4',\n  white: '#fff'\n};\nexport var Text = styled.Text(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n    font-family: Roboto-Regular;\\n    font-size: 15px;\\n    color: \", \";\\n    line-height: 18px;\\n\"])), colors.textColor);\nexport var TextBold = styled.Text(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([\"\\n    font-family: Roboto-Bold;\\n    font-size: 15px;\\n    color: \", \";\\n\"])), colors.textColor);",
     "map": {
         "version": 3,
-        "sources": [
-            "C:/GavelProjects/mevron/JusticeClock/WebApplication/_CrossBasement/CrossCore/components/typo/index.js"
-        ],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/_CrossBasement/CrossCore/components/typo/index.js"],
         "names": [
             "styled",
             "colors",

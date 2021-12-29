@@ -10,31 +10,5 @@ module.exports = async function (env, argv) {
         },
         argv,
     );
-
-    if (config.mode === 'development') {
-        config.devServer.proxy = {
-            '/v1/**': {
-                target: {
-                    host: 'localhost',
-                    protocol: 'http:',
-                    port: '5000',
-                },
-                secure: false,
-                changeOrigin: true,
-                logLevel: 'info',
-            },
-            '/maps/**': {
-                target: {
-                    host: 'maps.googleapis.com',
-                    protocol: 'https:',
-                    // port: '5000',
-                },
-                secure: false,
-                changeOrigin: true,
-                logLevel: 'info',
-            },
-        };
-    }
-
     return config;
 };

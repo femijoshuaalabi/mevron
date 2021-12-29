@@ -1,1 +1,26 @@
-{"ast":null,"code":"import styles from \"../style.css\";\nvar styleElement;\nexport var injectStyles = function injectStyles() {\n  if (typeof document !== \"undefined\" && !styleElement) {\n    styleElement = document.createElement(\"style\");\n    styleElement.innerHTML = styles;\n    document.head.appendChild(styleElement);\n  }\n};","map":{"version":3,"sources":["C:/GavelProjects/JusticeClock/JusticeClock/WebApplication/_CrossBasement/CrossCore/components/Selects/lib/inject-style.tsx"],"names":["styles","styleElement","injectStyles","document","createElement","innerHTML","head","appendChild"],"mappings":"AAAA,OAAOA,MAAP;AAEA,IAAIC,YAAJ;AAEA,OAAO,IAAMC,YAAY,GAAG,SAAfA,YAAe,GAAM;AAChC,MAAI,OAAOC,QAAP,KAAoB,WAApB,IAAmC,CAACF,YAAxC,EAAsD;AACpDA,IAAAA,YAAY,GAAGE,QAAQ,CAACC,aAAT,CAAuB,OAAvB,CAAf;AACAH,IAAAA,YAAY,CAACI,SAAb,GAAyBL,MAAzB;AAEAG,IAAAA,QAAQ,CAACG,IAAT,CAAcC,WAAd,CAA0BN,YAA1B;AACD;AACF,CAPM","sourcesContent":["import styles from \"../style.css\";\n\nlet styleElement: HTMLStyleElement | undefined;\n\nexport const injectStyles = () => {\n  if (typeof document !== \"undefined\" && !styleElement) {\n    styleElement = document.createElement(\"style\");\n    styleElement.innerHTML = styles;\n\n    document.head.appendChild(styleElement);\n  }\n};\n"]},"metadata":{},"sourceType":"module"}
+{
+    "ast": null,
+    "code": "import styles from \"../style.css\";\nvar styleElement;\nexport var injectStyles = function injectStyles() {\n  if (typeof document !== \"undefined\" && !styleElement) {\n    styleElement = document.createElement(\"style\");\n    styleElement.innerHTML = styles;\n    document.head.appendChild(styleElement);\n  }\n};",
+    "map": {
+        "version": 3,
+        "sources": [
+            "C:/GavelProjects/mevron/mevron/WebApplication/_CrossBasement/CrossCore/components/Selects/lib/inject-style.tsx"
+        ],
+        "names": [
+            "styles",
+            "styleElement",
+            "injectStyles",
+            "document",
+            "createElement",
+            "innerHTML",
+            "head",
+            "appendChild"
+        ],
+        "mappings": "AAAA,OAAOA,MAAP;AAEA,IAAIC,YAAJ;AAEA,OAAO,IAAMC,YAAY,GAAG,SAAfA,YAAe,GAAM;AAChC,MAAI,OAAOC,QAAP,KAAoB,WAApB,IAAmC,CAACF,YAAxC,EAAsD;AACpDA,IAAAA,YAAY,GAAGE,QAAQ,CAACC,aAAT,CAAuB,OAAvB,CAAf;AACAH,IAAAA,YAAY,CAACI,SAAb,GAAyBL,MAAzB;AAEAG,IAAAA,QAAQ,CAACG,IAAT,CAAcC,WAAd,CAA0BN,YAA1B;AACD;AACF,CAPM",
+        "sourcesContent": [
+            "import styles from \"../style.css\";\n\nlet styleElement: HTMLStyleElement | undefined;\n\nexport const injectStyles = () => {\n  if (typeof document !== \"undefined\" && !styleElement) {\n    styleElement = document.createElement(\"style\");\n    styleElement.innerHTML = styles;\n\n    document.head.appendChild(styleElement);\n  }\n};\n"
+        ]
+    },
+    "metadata": {},
+    "sourceType": "module"
+}

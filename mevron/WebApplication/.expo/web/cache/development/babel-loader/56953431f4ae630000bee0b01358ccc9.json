@@ -3,7 +3,7 @@
     "code": "export { default } from '@expo/next-adapter/document';",
     "map": {
         "version": 3,
-        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/pages/_document.js"],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/pages/_document.js"],
         "names": ["default"],
         "mappings": "AACA,SAASA,OAAT,QAAwB,6BAAxB",
         "sourcesContent": [

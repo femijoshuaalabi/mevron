@@ -3,7 +3,7 @@
     "code": "import React from'react';import{LandingPage as Page}from\"../../../../_CrossBasement/CrossPage/LandingPage\";export default function LandingPage(props){return React.createElement(Page,null);}",
     "map": {
         "version": 3,
-        "sources": ["C:/GavelProjects/mevron/JusticeClock/WebApplication/src/pages/LandingPage/desktop/index.js"],
+        "sources": ["C:/GavelProjects/mevron/mevron/WebApplication/src/pages/LandingPage/desktop/index.js"],
         "names": ["React", "LandingPage", "Page", "props"],
         "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CACA,OAASC,WAAW,GAAIC,CAAAA,IAAxB,wDAEA,cAAe,SAASD,CAAAA,WAAT,CAAqBE,KAArB,CAA4B,CACvC,MAAO,qBAAC,IAAD,MAAP,CACH",
         "sourcesContent": [
