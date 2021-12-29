@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandingPage from '../pages/LandingPage';
+import Login from '../pages/Login';
 
 const Routers = () => {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/">
-                    <Route index element={<LandingPage />} />
+                    <Route index element={<Login />} />
                 </Route>
             </Routes>
         </BrowserRouter>
