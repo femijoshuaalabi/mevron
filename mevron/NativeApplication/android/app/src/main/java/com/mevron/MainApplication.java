@@ -47,7 +47,7 @@ public class MainApplication extends Application implements ReactApplication {
 
         @Override
         protected String getJSMainModuleName() {
-          return "ApplicationBasement/NativeApplication/index";
+          return "mevron/NativeApplication/index";
         }
         @Override
         protected JSIModulePackage getJSIModulePackage() {
