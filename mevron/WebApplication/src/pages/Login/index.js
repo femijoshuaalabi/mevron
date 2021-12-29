@@ -109,9 +109,7 @@ export default function Login() {
                     <Ionicons name="md-warning-outline" size={24} color="black" />
                     <WarningText>Phone Number entered is incorrect</WarningText>
                 </WarningBox>
-                <NextButton>
-                    <NextButtonText>Next</NextButtonText>
-                </NextButton>
+                <NextButton>{/* <NextButtonText>Next</NextButtonText> */}</NextButton>
             </Content>
         </Container>
     );
