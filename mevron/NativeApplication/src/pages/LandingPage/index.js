@@ -1,6 +1,6 @@
 import React from 'react';
-import { LandingPage as Page } from '@mevron/cross-page/LandingPage';
+import { default as Page } from '@mevron/cross-page/Login';
 
-export default function HomePage(props) {
+export default function Login(props) {
     return <Page />;
 }
